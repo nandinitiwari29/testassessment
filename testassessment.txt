@@ -1,0 +1,101 @@
+
+4]
+
+class abc
+{
+Public Class A
+{
+int a, b;
+void A()
+{
+System.out.println("Enter the two numbers");
+//take input a and b
+}
+}
+
+Public Class B extends class A
+{
+
+int c, d;
+void C()
+{
+c=a%10;
+d=b%10;
+System.out.println(" The last two digit are" +c +d);
+}
+}
+
+
+
+Public class C extends class B
+{
+int e;
+void C();
+{
+e=c*d;
+System.out.println("Multiplayer the last two digit"+ e);
+}
+}
+
+Public static void main(String args[])
+{
+A obj1= new A;
+B obj2= new B;
+C obj3= new C;
+obj1.A();
+obj2.B();
+obj3.C();
+}
+}
+
+3]
+
+Class emailvalidate
+{
+public static void main(String args[])
+{
+System.out.println("enter the email");
+String email= 
+
+for(int i=0;i<email.length;i++)
+{
+if(email=='@'||email=='[0-9]'||email==[a-z]/[A-Z])
+alert("the email is valid");
+
+else
+if(email=='*'||email=='$'||email=='\')
+alert("the email is in valid");
+
+else
+alert("the email is invalid");
+}
+}
+
+
+1]
+
+Class Jagarray
+{
+void J()
+{
+String arr[20];
+System.out.println("Enter the Array");
+//input the array
+
+
+for(int i=0;i<arr.length;i++)
+{
+for(int j=0;j<arr.length;j++)
+{
+if(a[i]>a[j])
+{
+}
+}
+}
+
+
+}
+public static void main(String args[])
+{
+
+}
