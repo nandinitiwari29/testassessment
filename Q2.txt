@@ -1,0 +1,24 @@
+3]
+
+Class emailvalidate
+{
+public static void main(String args[])
+{
+System.out.println("enter the email");
+String email= 
+
+for(int i=0;i<email.length;i++)
+{
+if(email=='@'||email=='[0-9]'||email==[a-z]/[A-Z])
+alert("the email is valid");
+
+else
+if(email=='*'||email=='$'||email=='\')
+alert("the email is in valid");
+
+else
+alert("the email is invalid");
+}
+}
+
+

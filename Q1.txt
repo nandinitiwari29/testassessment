@@ -1,0 +1,51 @@
+
+4]
+
+class abc
+{
+Public Class A
+{
+int a, b;
+void A()
+{
+System.out.println("Enter the two numbers");
+//take input a and b
+}
+}
+
+Public Class B extends class A
+{
+
+int c, d;
+void C()
+{
+c=a%10;
+d=b%10;
+System.out.println(" The last two digit are" +c +d);
+}
+}
+
+
+
+Public class C extends class B
+{
+int e;
+void C();
+{
+e=c*d;
+System.out.println("Multiplayer the last two digit"+ e);
+}
+}
+
+Public static void main(String args[])
+{
+A obj1= new A;
+B obj2= new B;
+C obj3= new C;
+obj1.A();
+obj2.B();
+obj3.C();
+}
+}
+
+
